@@ -1,0 +1,55 @@
+main
+{
+  background-color: hsl(217, 54%, 11%);
+  width: 1440px;
+  height: 800px;
+  justify-content: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card
+{
+  width: 300px;
+  height: 500px;
+  background: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#cube-image
+{
+  width: 100%;
+  height:auto;
+  border-radius: 15px;
+}
+
+.card h3
+{
+  color: hsl(0, 0%, 100%);
+
+}
+
+#text
+{
+  color: hsl(215, 51%, 70%);
+
+}
+
+.ether
+{
+
+}
+#eth
+{
+  color: hsl(178, 100%, 50%);
+}
+
+#time
+{
+  color: hsl(215, 51%, 70%);
+}
+
+footer p
+{
+  color: hsl(215, 51%, 70%);
+}
