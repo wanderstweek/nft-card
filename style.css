@@ -1,55 +1,117 @@
-main
-{
-  background-color: hsl(217, 54%, 11%);
-  width: 1440px;
-  height: 800px;
-  justify-content: center;
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+  font-size: 18px;
   font-family: 'Outfit', sans-serif;
-}
-
-.card
-{
-  width: 300px;
-  height: 500px;
-  background: hsl(216, 50%, 16%);
-  padding: 20px;
-  border-radius: 15px;
-}
-
-#cube-image
-{
-  width: 100%;
-  height:auto;
-  border-radius: 15px;
-}
-
-.card h3
-{
-  color: hsl(0, 0%, 100%);
-
-}
-
-#text
-{
   color: hsl(215, 51%, 70%);
-
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.ether
-{
 
+/*==========Typography=========*/
+
+.text h1{
+  color: hsl(0, 0%, 100%);
+  font-size: 1.3rem;
+  font-weight: 600;
 }
-#eth
-{
+.text p{
+  font-size: 1.1rem;
+}
+.eth p{
+  color: hsl(178, 100%, 50%);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+.days p{
+  font-size: 0.95rem;
+}
+footer p{
+  font-size: 0.97rem;
+  font-weight: 400;
+}
+footer span{
+  color: hsl(0, 0%, 100%);
+}
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+a:hover{
   color: hsl(178, 100%, 50%);
 }
+/*=========Layout==========*/
 
-#time
-{
-  color: hsl(215, 51%, 70%);
+main{
+  background: hsl(217, 54%, 11%);
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-footer p
-{
-  color: hsl(215, 51%, 70%);
+.card-container{
+  background: hsl(216, 50%, 16%);
+  width: 290px;
+  height: 533px;
+  border-radius: 15px;
+  padding: 23px;
+
+}
+header img{
+  border-radius: 15px;
+  width: 100%;
+}
+.view-icon{
+  background: hsla(178, 100%, 50%, 0.4);
+  padding: 120px;
+  border-radius: 15px;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+.view-icon:hover {
+  opacity: 1;
+}
+
+.data{
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  padding-right: 7px;
+}
+.eth{
+  display: flex;
+  align-items: center;
+}
+.days{
+  display: flex;
+  align-items: center;
+}
+
+hr{
+  opacity: .4;
+  border-bottom: hsl(215, 32%, 27%);
+}
+
+footer{
+  display: flex;
+  align-items: center;
+}
+footer img{
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+
+}
+footer p{
+  padding: 0 15px;
 }
