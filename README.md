@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/nftcard-made-with-flexbox-o-Nv0R8_If)
 - Live Site URL: [Github page](https://wanderstweek.github.io/nft-card/)
 
 ## My process
