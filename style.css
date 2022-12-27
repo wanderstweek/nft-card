@@ -68,10 +68,10 @@ header img{
 }
 .view-icon{
   background: hsla(178, 100%, 50%, 0.4);
-  padding: 120px;
+  padding: 122px;
   border-radius: 15px;
   position: absolute;
-  top: 38%;
+  top: 38.6%;
   left: 50%;
   transform: translate(-50%,-50%);
   opacity: 0;
